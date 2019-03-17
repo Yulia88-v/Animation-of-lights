@@ -1,0 +1,41 @@
+.box{
+   width: 120px;
+    height: 120px;
+    background: black;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+.green{
+background-color: green;
+transition: background-color;
+animation: anim1 6s infinite;
+}
+@keyframes anim1 {
+ 0%{background-color: green;}
+ 35% {background-color: black;}
+ 70% {background-color: black;}
+ 90% {background-color: green;}  
+}
+.yellow{
+	background-color: black;
+animation: anim2 6s infinite;
+}
+@keyframes anim2 {
+ 0% {background-color: black;}
+ 35% {background-color: yellow;}
+ 70% {background-color: black;}
+ 90% {background-color: black;}
+}
+.red {
+	background-color: black;
+animation: anim3 6s infinite;
+}
+@keyframes anim3 {
+ 0% {background-color: black;}
+ 35% {background-color: black;}
+ 70% {background-color: red;}
+ 90% {background-color: black;}
+}
+
+ 
